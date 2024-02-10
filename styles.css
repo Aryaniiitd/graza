@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set height to viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Fallback background color */
+    background-image: url('https://i.ibb.co/cw2jD2b/final.png'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background */
+}
+
+#background-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
